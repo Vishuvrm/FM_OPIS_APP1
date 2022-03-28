@@ -1,0 +1,8 @@
+*.log
+*.spec
+*.json
+AppActivities.txt
+\__pycache__
+\.idea
+*test*
+*Test*
