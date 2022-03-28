@@ -34,5 +34,20 @@ Most of the options are self explanatory, so I will deal with the main ones here
 - This is the log window<br>
 ![image](https://user-images.githubusercontent.com/50429258/160337898-22f1535d-4b8e-4662-8574-c4397a6e2197.png)
 
+## Once 2 files are created in the selected folder, the application will prompt you to input the processes you want to run.
+
+![image](https://user-images.githubusercontent.com/50429258/160338568-6d376aa7-f012-4e89-b582-2b32d0308e6a.png)
+
+1. You will be prompted to fill the config.json file.
+ - For the script key value, you write the processes you want to trigger every time the application detects file that matches your configuration. 
+ - In this case, I have created 2 processes, <b>testing1</b> and <b> testing2 </b>
+ - These processes have the value which are the powershell scripts.
+ - There is a particular way in which we write the key-values for the scripts to run.
+ - Firts of all you need to create a task in task scheduler for the script you want to run. In this case I have named that task as testing1 as key
+ - Then create a powershell script which contains a single line script to run that task. The address for that script comes as the value. In this case, it is func.ps1.
+2. Once you metin all the tasks in the config.json, just save the file and clik the ok button on the prompt.
+3. You tasks will be run successfully!
+4. Now, if this application keeps running, then next time when you receive the files, it will simply trigger those tasks again in tha=e background, and hece automate the whole process of running the tasks based on events.
+
 
  
