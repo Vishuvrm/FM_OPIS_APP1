@@ -23,3 +23,16 @@ Most of the options are self explanatory, so I will deal with the main ones here
 11. Refresh rate => It is the time interval at which you want the application to monitor the folder.
 12. Clear logs => Press this button to clear the generated logs file(monitor.log).
 13. Clear configs => Press this button to clear the config.json file.(The importance of config.json file is discussed later.)
+
+## After you are done with the configuration, press the start button.
+1. You will get an info pop up. Just click OK.<br><br>
+![image](https://user-images.githubusercontent.com/50429258/160337463-384997ee-3975-4123-a16f-7a3794fa18fa.png)
+
+2. After you click ok, you will get following results:<br><br>
+- This is the base application window<br>
+![image](https://user-images.githubusercontent.com/50429258/160337738-e2a4be41-dd17-407c-8e85-b6eef1aa01c7.png)
+- This is the log window<br>
+![image](https://user-images.githubusercontent.com/50429258/160337898-22f1535d-4b8e-4662-8574-c4397a6e2197.png)
+
+
+ 
