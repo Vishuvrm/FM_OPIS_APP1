@@ -47,7 +47,7 @@ Most of the options are self explanatory, so I will deal with the main ones here
  - Then create a powershell script which contains a single line script to run that task. The address for that script comes as the value. In this case, it is func.ps1.
 2. Once you metin all the tasks in the config.json, just save the file and clik the ok button on the prompt.
 3. You tasks will be run successfully!
-4. Now, if this application keeps running, then next time when you receive the files, it will simply trigger those tasks again in tha=e background, and hece automate the whole process of running the tasks based on events.
+4. Now, if this application keeps running, then next time when you receive the files, it will simply trigger those tasks again in the background, and hence automate the whole process of running the tasks based on events.
 
 
  
